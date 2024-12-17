@@ -14,3 +14,12 @@ public class GreetingResource {
         return "Hello from Quarkus REST";
     }
 }
+
+// mvn quarkus:list-extensions
+
+// mvn quarkus:add-extensions -Dextensions="quarkus-hibernate-orm-panache"
+// mvn quarkus:add-extensions -Dextensions="quarkus-jdbc-postgresql"
+
+
+
+
