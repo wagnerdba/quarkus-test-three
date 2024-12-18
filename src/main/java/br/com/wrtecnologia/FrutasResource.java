@@ -23,8 +23,8 @@ public class FrutasResource {
     @Transactional
     public void newFruta() {
         Fruta fruta = new Fruta();
-        fruta.nome = "Laranja";
-        fruta.qtd = 5;
+        fruta.nome = "Ameixa";
+        fruta.qtd = 18;
         fruta.persist();
     }
 }
